@@ -4,6 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
+
+# sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
 
 # testing
 /coverage
