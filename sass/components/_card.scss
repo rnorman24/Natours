@@ -38,6 +38,12 @@
         rgba($color-primary-light, .85), 
         rgba($color-primary-dark, .85));
       }
+
+      &-3 {
+        background-image: linear-gradient(to right bottom, 
+        rgba($color-tertiary-light, .85), 
+        rgba($color-tertiary-dark, .85));
+      }
     }
   }
   
@@ -56,6 +62,8 @@
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 
     &--1 {
       background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/nat-5.jpg);
@@ -66,7 +74,7 @@
     }
 
     &--3 {
-      background-image: url(../img/nat-5.jpg);
+      background-image: linear-gradient(to right bottom,  $color-tertiary-light, $color-tertiary-dark), url(../img/nat-7.jpg);
     }
 
   }
@@ -99,6 +107,12 @@
       rgba($color-primary-light, .85), 
       rgba($color-primary-dark, .85));
     }
+
+    &--3 {
+      background-image: linear-gradient(to right bottom, 
+      rgba($color-tertiary-light, .85), 
+      rgba($color-tertiary-dark, .85));
+    }
   }
 
   &__details {
@@ -121,7 +135,7 @@
     }
   }
 
-  // FRONT SIDE STYLING
+  // BACK SIDE STYLING
   &__cta {
     position: absolute;
     top: 50%;
