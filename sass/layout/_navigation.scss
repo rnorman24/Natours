@@ -23,6 +23,8 @@
     right: 6.5rem;
     background-image: radial-gradient($color-primary-light, $color-primary-dark);
     z-index: 1000;
+
+    transform: scale(80);
   }
 
   &__nav {
@@ -35,7 +37,12 @@
   }
 
   &__list {
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    text-emphasis: center;
   }
 
   &__item {
