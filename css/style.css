@@ -31,7 +31,7 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-shadow: inherit; }
+  box-sizing: inherit; }
 
 html {
   font-size: 62.5%; }
@@ -214,8 +214,6 @@ body {
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
-    .card__side * {
-      box-shadow: none; }
     .card__side--front {
       background-color: #fff; }
     .card__side--back {
@@ -338,8 +336,6 @@ body {
     color: transparent; }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
-  .feature-box * {
-    box-shadow: none; }
 
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
@@ -495,8 +491,6 @@ body {
   padding-left: 9rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
-  .story * {
-    box-shadow: none; }
   .story__shape {
     width: 15rem;
     height: 15rem;
