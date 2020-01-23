@@ -411,8 +411,21 @@
   <div class="popup" id="popup">
     <div class="popup__content">
       <div class="popup__left">
-        <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
-        <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+
+        <img srcset="img/nat-8-small.jpg 300w, img/nat-8-large.jpg 1000w"
+              sizes="(max-width: 900px) 25vw, (max-width: 600px) 38vw, 300px"
+              alt="Tour photo"
+              class="popup__img"
+              src="img/nat-8-large.jpg">
+
+              <img srcset="img/nat-9-small.jpg 300w, img/nat-9-large.jpg 1000w"
+              sizes="(max-width: 900px) 25vw, (max-width: 600px) 38vw, 300px"
+              alt="Tour photo"
+              class="popup__img"
+              src="img/nat-9-large.jpg">
+
+        <!-- <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+        <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img"> -->
       </div>
         
       <div class="popup__right">
