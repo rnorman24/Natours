@@ -68,8 +68,8 @@
         (min-width: 125em) {
         background-image: linear-gradient(
         to right bottom,
-          rgba($color-secondary-light, 0.8),
-          rgba($color-secondary-dark, 0.8)),
+          $color-secondary-light,
+          $color-secondary-dark),
         url(../img/nat-5.jpg);
       }
     }
@@ -81,8 +81,8 @@
         (min-width: 125em) {
         background-image: linear-gradient(
         to right bottom,
-          rgba($color-primary-light, 0.8),
-          rgba($color-primary-dark, 0.8)),
+          $color-primary-light,
+          $color-primary-dark),
         url(../img/nat-6.jpg);
       }
     }
@@ -94,8 +94,8 @@
         (min-width: 125em) {
         background-image: linear-gradient(
         to right bottom,
-          rgba($color-tertiary-light, 0.8),
-          rgba($color-tertiary-dark, 0.8)),
+          $color-tertiary-light,
+          $color-tertiary-dark),
         url(../img/nat-7.jpg);
       }
     }
